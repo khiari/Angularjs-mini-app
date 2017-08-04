@@ -1,3 +1,5 @@
 'use strict';
+var angular = require('angular');
 
-angular.module('LpcWebTest2017',[]);
+
+module.exports= angular.module('LpcWebTest2017',[]);

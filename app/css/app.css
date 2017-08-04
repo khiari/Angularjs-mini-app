@@ -4,5 +4,118 @@ html,body{
   padding: 0;
   font-family: 'Montserrat' ,sans-serif;
 }
+h1 {
+
+  text-align: center;
+}
+.none{
+
+  display: none;
+}
+
+.content{
+
+  margin: auto;
+  width: 80%;
+
+  text-align:center;
+
+}
+
+.lang-choice-container{
+
+  text-align: center;
+
+}
+
+.lang-choice-container a{
+
+  text-decoration: none;
+}
+
+
+.selected{
+
+  position: relative;
+      
+}
+
+.selected:after {
+  content:"";
+  position: absolute;
+  background-color:red;
+  width: 50%;
+  left: 20%;
+  top: 100%;
+  height: 1.5px;
+
+}
+  
+
+.content .row{
+ width: 100%;  
+
+}
+
+.col{
+width:45%;
+ display: inline-block;
+ margin-right: 10px;
+ margin-top: 10px;
+ 
+}
+
+.pot-item{
+
+position: relative;
+width: auto;
+height: 200px;
+background: linear-gradient(white,white,white,black);
+z-index:7;
+background-blend-mode: darken;
+
+}
+
+div >img  {
+  width: 100%;
+  height:100%;
+  z-index: 1;
+  
+}
+
+.pot-name{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color:white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 20;
+
+} 
+
+
+ .loader{
+
+position: relative;
+text-align: center;
+vertical-align: middle;
+top: 100px;
+width: initial;
+height: initial;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   .col {
+        width: 100%;
+    }
+}
+
+
+
+
 
 /*TODO*/

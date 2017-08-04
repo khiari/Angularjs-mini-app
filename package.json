@@ -1,0 +1,29 @@
+{
+  "name": "khiari_lpc_test",
+  "version": "1.0.0",
+  "description": "simple SPA ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lepotcommun/lpcWebTest2017.git"
+  },
+  "author": "Abderrahmen KHIARI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lepotcommun/lpcWebTest2017/issues"
+  },
+  "homepage": "https://github.com/lepotcommun/lpcWebTest2017#readme",
+  "dependencies": {
+    "angular": "1.5.6",
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-eslint": "^0.15.0",
+    "gulp-open": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

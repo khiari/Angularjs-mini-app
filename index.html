@@ -24,11 +24,15 @@
                 <img src="images/it.png" alt="Italy">
               </a>
             </div>
+
+
           
             <h1> {{'main.pots_list' | lpcTranslate:locale}} </h1>
+
+            <input  ng-model="keyWord" type="text"   />
             <div class="row">
-              <div class="col" data-ng-repeat="pot in pots">
-                   <div class="pot-item" data-lpc-lazy-background="pot.imageUrl" data-loading-class="loading"> 
+              <div class="col" data-ng-repeat="pot in pots | lpcTranslateFilter:keyWord:locale">
+                   <div class="pot-item" data-lpc-lazy-background="'{{pot.imageUrl}}'" data-loading-class="loading"> 
                      <div class="pot-name"> {{pot.name | lpcTranslate:locale}} </div> 
                   </div>
               </div>
